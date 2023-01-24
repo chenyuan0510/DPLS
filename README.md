@@ -7,8 +7,9 @@ Quantifying the predictive ability of variable X  to variable Y
 2.Make sure that extension package including Numpy, Pandas, scikit-learn and scipy have installed for current python environment;
 3.Download DPLS.py to the running directory;
 4.The command for  calculating DPLS-R² between dependent variable(Y) and independent variable(X) is:
- ```   from DPLS import dpls_score
-    dpls_score(X,Y)```
+ ``` from DPLS import dpls_score
+     dpls_score(X,Y)
+ ```
 5The command for  calculating DPLS-R² between dependent variable(Y) and  all variables in the data is:
    from DPLS import dpls
      dpls(data,Y)
